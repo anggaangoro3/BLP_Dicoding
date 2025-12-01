@@ -54,3 +54,13 @@ blp_dicoding/
 │   └── PCA_model_clustering.h5                 # Model PCA untuk reduksi dimensi
 │
 └── 📄 README.md
+
+### 💡 Penjelasan Tambahan
+Saya telah menyusun README ini berdasarkan nama file yang Anda berikan. Berikut beberapa poin penting:
+1.  **Dua Modul**: Karena ada file `[Klasifikasi]` dan `[Clustering]`, saya memisahkan penjelasannya menjadi dua modul agar lebih jelas.
+2.  **Model .h5**: File berekstensi `.h5` biasanya digunakan oleh Keras/TensorFlow. Namun, karena nama filenya `decision_tree` dan `PCA` (yang merupakan algoritma Scikit-Learn), saya asumsikan Anda mungkin menggunakan *library* tertentu untuk menyimpan model ini dalam format h5, atau ini adalah penamaan kustom. Jika Anda menggunakan `joblib` atau `pickle`, Anda bisa memperbarui deskripsi di bagian "Saved Models".
+3.  **Visualisasi**: Saya menambahkan *placeholder* `` yang bisa Anda ganti dengan screenshot plot dari notebook Anda (misalnya Confusion Matrix atau Scatter Plot hasil Clustering) agar README terlihat lebih menarik.
+
+[Understanding GitHub READMEs](https://www.youtube.com/watch?v=lJIrF4YjgCQ)
+
+Video di atas memberikan panduan visual yang baik tentang elemen-elemen penting yang harus ada dalam file README untuk membuat repositori Anda terlihat profesional dan mudah dipahami.
